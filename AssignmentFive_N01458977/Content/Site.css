@@ -1,0 +1,66 @@
+﻿﻿body {
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+h2{
+    margin-top: 80px;
+}
+
+.navlink {
+    float: left;
+}
+.updatelink {
+    float: left;
+    padding-left: 10px;
+}
+
+.dellink {
+    float: right;
+    color: red;
+}
+
+#TeacherLname{
+    margin-left: 2px;
+}
+#Salary {
+    margin-left: 30px;
+}
+#HireDate {
+    margin-left: 11px;
+    width: 178px;
+}
+#EmployeeNumber {
+    width: 260px;
+    margin-bottom: 10px;
+}
+
+
+#containershow {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.deletebutton {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: #dd1111;
+    border: 2px solid #dd1111;
+    border-radius: 3px;
+}

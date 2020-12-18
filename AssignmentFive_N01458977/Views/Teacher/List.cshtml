@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+<div>
+    <a class="navlink" href="/Teacher/New">New Teacher</a>
+</div>
+<br />
+<div>
+    <ul>
+        @foreach (var teacher in ViewBag.ListTeachers)
+        {
+            <li><a href="/Teacher/Show/@teacher.TeacherId">@teacher.TeacherFname @teacher.TeacherLname</a></li>
+        }
+    </ul>
+</div>
